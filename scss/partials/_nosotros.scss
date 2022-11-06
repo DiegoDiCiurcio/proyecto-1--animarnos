@@ -1,0 +1,866 @@
+.equipoContainer {  
+
+    // width: 100vw;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .circulo {
+
+        border: 5px solid $color3;
+        border-radius: 50%;
+        height: 80%;
+        width: 45%;
+        position: absolute;
+    }
+
+    // PATO
+
+    .pato {
+        transform: translate(200%, -190%);
+
+        img {
+            border-radius: 2em;
+            width: 17em;
+            position: relative;
+            padding: 1em;
+            animation: fadeFotoPato 2s ease-in;
+
+
+            @keyframes fadeFotoPato {
+                0% {
+                    scale: 0;
+                    opacity: 0;
+                }
+
+                50% {
+                    opacity: 0%;
+                }
+
+                100% {
+                    scale: 1;
+                    opacity: 1;
+                }
+            }
+        }
+
+        h5 {
+            font-size: 2em;
+            position: absolute;
+            text-align: center;
+            animation: nombrePato 2s ease-in;
+
+            @keyframes nombrePato {
+
+                0% {
+                    transform: rotateX(-90deg);
+                    opacity: 0;
+
+
+                }
+
+                50% {
+                    opacity: 0%;
+                    transform: rotateX(-90deg);
+
+                }
+
+                100% {
+                    transform: rotateX(0deg) translatey(0em);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    // RORO
+
+    .roro {
+        transform: translate(320%, -40%);
+
+        img {
+            border-radius: 2em;
+            width: 17em;
+            position: relative;
+            padding: 1em;
+            animation: fadeFotoRoro 2.5s ease-in;
+
+            @keyframes fadeFotoRoro {
+                0% {
+                    scale: 0;
+                    opacity: 0;
+                }
+
+                75% {
+                    opacity: 0%;
+
+                }
+
+                100% {
+                    scale: 1;
+                    opacity: 1;
+                }
+            }
+        }
+
+        h5 {
+            font-size: 2em;
+            position: absolute;
+            text-align: center;
+            animation: nombreRoro 2.5s ease-in;
+
+            @keyframes nombreRoro {
+
+                0% {
+                    transform: rotateX(-90deg);
+                    opacity: 0;
+
+
+                }
+
+                75% {
+                    opacity: 0%;
+                    transform: rotateX(-90deg);
+
+                }
+
+                100% {
+                    transform: rotateX(0deg) translatey(0em);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    // VANESA
+
+
+    .tiny {
+
+        transform: translate(150%, 160%);
+
+        img {
+            border-radius: 2em;
+            width: 17em;
+            position: relative;
+            padding: 1em;
+            animation: fadeFotoTiny 3s ease-in;
+
+                @keyframes fadeFotoTiny {
+                    0% {
+                        scale: 0;
+                        opacity: 0;
+                    }
+
+                    75% {
+                        opacity: 0%;
+                    }
+
+                    100% {
+                        scale: 1;
+                        opacity: 1;
+                    }
+                }
+        }
+
+        h5 {
+            font-size: 2em;
+            position: absolute;
+            text-align: center;
+            animation: nombreTiny 3s ease-in;
+
+            @keyframes nombreTiny {
+
+                0% {
+                    transform: rotateX(-90deg);
+                    opacity: 0;
+
+
+                }
+
+                75% {
+                    transform: rotateX(-90deg);
+
+                    opacity: 0%;
+                }
+
+                100% {
+                    transform: rotateX(0deg) translatey(0em);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+
+    // CAROLA 
+
+    .carola {
+
+        transform: translate(-350%, 160%);
+
+        img {
+            border-radius: 2em;
+            width: 17em;
+            position: relative;
+            padding: 1em;
+            animation: fadeFotoCarola 3.5s ease-in;
+
+            @keyframes fadeFotoCarola {
+                0% {
+                    scale: 0;
+                    opacity: 0;
+
+                }
+
+                75% {
+                    opacity: 0%;
+                }
+
+                100% {
+                    scale: 1;
+                    opacity: 1;
+                }
+            }
+        }
+        h5{
+            font-size: 2em;
+            position: absolute;
+            text-align: center;
+            animation: nombreCarola 3.5s ease-in;
+
+            @keyframes nombreCarola {
+
+                0%{
+                    opacity: 0;
+                }
+
+                    75%{
+                    transform: rotateX(-90deg);
+
+                        opacity: 0;
+                    }
+                100%{
+                    transform: rotateX(0deg);
+                    opacity: 1;
+                }
+                
+            }
+        }
+
+    }
+
+    // MARTIN
+
+    .martin {
+
+        transform: translate(-330%, -40%);
+
+        img {
+            border-radius: 2em;
+            width: 17em;
+            position: relative;
+            padding: 1em;
+            animation: fadeFotoMartin 4s ease-in;
+
+            @keyframes fadeFotoMartin {
+                0% {
+                    scale: 0;
+                    opacity: 0;
+                }
+
+                75% {
+                    opacity: 0%;
+                }
+
+                100% {
+                    scale: 1;
+                    opacity: 1;
+                }
+            }
+        }
+
+        h5 {
+            font-size: 2em;
+            position: absolute;
+            text-align: center;
+            animation: nombreMartin 4s ease-in;
+
+            @keyframes nombreMartin {
+
+                0% {
+                    opacity: 0;
+
+
+                }
+
+                75% {
+                    opacity: 0%;
+                    transform: rotateX(-90deg);
+
+                }
+
+                100% {
+                    transform: rotateX(0deg) translatey(0em);
+                    opacity: 1;
+                }
+            }
+        }
+
+    }
+
+
+
+    // TITULO
+
+    h1 {
+        position: absolute;
+        font-size: 5em;
+
+        animation: fadeTitulo 2.5s;
+
+        @keyframes fadeTitulo {
+            0% {
+                scale: 0;
+                opacity: 0;
+            }
+
+            50% {
+                scale: 1.5;
+            }
+
+            100% {
+                scale: 1;
+                opacity: 1;
+            }
+        }
+    }
+
+
+
+    // MODAL 
+
+    // .modalContainerBg {
+    //     opacity: 0;
+    //     visibility: hidden;
+    //     position: fixed;
+    //     z-index: 1000;
+    //     width: 100vw;
+    //     height: 100vh;
+    //     top: 0;
+    //     background: rgba(0, 0, 0, 0.5);
+    //     align-items: center;
+    //     display: flex;
+    //     justify-content: center;
+
+    //     .modalContainer {
+
+    //         width: 60vw;
+    //         height: 70vh;
+    //         background-color: rgb(147, 209, 147);
+    //         border-radius: 1em;
+    //         display: flex;
+    //         flex-flow: row;
+    //         justify-content: space-evenly;
+    //         align-items: center;
+    //         transition: transform 1s;
+    //         transform: translateY(0%);
+
+
+    //         .modalImg {
+    //             width: 50%;
+    //             height: 100%;
+    //             display: flex;
+    //             justify-content: center;
+    //             align-items: center;
+
+
+    //             img {
+    //                 width: 80%;
+    //                 height: 80%;
+    //                 padding: 2em;
+    //                 border-radius: 3em;
+
+    //             }
+    //         }
+
+    //         .modalText {
+    //             width: 60%;
+    //             height: 90%;
+    //             text-align: justify;
+    //             padding: 2em;
+
+
+    //             h5 {
+    //                 font-size: 4em;
+    //                 text-align: center;
+    //                 border-bottom: solid 1px black;
+    //                 width: fit-content;
+    //             }
+
+    //             p {
+    //                 font-size: 2em;
+    //                 padding-top: 1em;
+    //             }
+
+
+    //         }
+
+    //         .close {
+    //             position: absolute;
+    //             top: 0.5em;
+    //             right: .5em;
+    //             font-size: 2em;
+    //             background-color: black;
+    //             color: white;
+    //             border-radius: 50%;
+    //             padding: .2em;
+    //             cursor: pointer;
+    //         }
+    //     }
+
+    //     .modalClose {
+    //         transform: translateY(-200%);
+    //     }
+        
+    // }
+
+}
+
+// modal pato 
+
+.modalContainerBgPato{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    .modalContainer {
+
+        width: 60vw;
+        height: 70vh;
+        background-color: rgb(147, 209, 147);
+        border-radius: 1em;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: transform 1s;
+        transform: translateY(0%);
+
+
+        .modalImg {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            img {
+                width: 80%;
+                height: 80%;
+                padding: 2em;
+                border-radius: 3em;
+
+            }
+        }
+
+        .modalText {
+            width: 60%;
+            height: 90%;
+            text-align: justify;
+            padding: 2em;
+
+
+            h5 {
+                font-size: 4em;
+                text-align: center;
+                border-bottom: solid 1px black;
+                width: fit-content;
+            }
+
+            p {
+                font-size: 2em;
+                padding-top: 1em;
+            }
+
+
+        }
+
+        .closePato {
+            position: absolute;
+            top: 0.5em;
+            right: .5em;
+            font-size: 2em;
+            background-color: black;
+            color: white;
+            border-radius: 50%;
+            padding: .2em;
+            cursor: pointer;
+        }
+    }
+
+    .modalClosePato{
+        transform: translateY(200%);
+    }
+    
+}
+
+// modal roro 
+
+.modalContainerBgRoro{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    .modalContainer {
+
+        width: 60vw;
+        height: 70vh;
+        background-color: rgb(147, 209, 147);
+        border-radius: 1em;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: transform 1s;
+        transform: translateY(0%);
+
+
+        .modalImg {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            img {
+                width: 80%;
+                height: 80%;
+                padding: 2em;
+                border-radius: 3em;
+
+            }
+        }
+
+        .modalText {
+            width: 60%;
+            height: 90%;
+            text-align: justify;
+            padding: 2em;
+
+
+            h5 {
+                font-size: 4em;
+                text-align: center;
+                border-bottom: solid 1px black;
+                width: fit-content;
+            }
+
+            p {
+                font-size: 2em;
+                padding-top: 1em;
+            }
+
+
+        }
+
+        .closeRoro {
+            position: absolute;
+            top: 0.5em;
+            right: .5em;
+            font-size: 2em;
+            background-color: black;
+            color: white;
+            border-radius: 50%;
+            padding: .2em;
+            cursor: pointer;
+        }
+    }
+
+    .modalCloseRoro{
+        transform: translateY(-200%);
+    }
+    
+}
+
+// modal tiny 
+
+.modalContainerBgTiny{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    .modalContainer {
+
+        width: 60vw;
+        height: 70vh;
+        background-color: rgb(147, 209, 147);
+        border-radius: 1em;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: transform 1s;
+        transform: translateY(0%);
+
+
+        .modalImg {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            img {
+                width: 80%;
+                height: 80%;
+                padding: 2em;
+                border-radius: 3em;
+
+            }
+        }
+
+        .modalText {
+            width: 60%;
+            height: 90%;
+            text-align: justify;
+            padding: 2em;
+
+
+            h5 {
+                font-size: 4em;
+                text-align: center;
+                border-bottom: solid 1px black;
+                width: fit-content;
+            }
+
+            p {
+                font-size: 2em;
+                padding-top: 1em;
+            }
+
+
+        }
+
+        .closeTiny {
+            position: absolute;
+            top: 0.5em;
+            right: .5em;
+            font-size: 2em;
+            background-color: black;
+            color: white;
+            border-radius: 50%;
+            padding: .2em;
+            cursor: pointer;
+        }
+    }
+
+    .modalCloseTiny{
+        transform: translateY(-200%);
+    }
+    
+}
+
+// modal carola 
+
+.modalContainerBgCarola{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    .modalContainer {
+
+        width: 60vw;
+        height: 70vh;
+        background-color: rgb(147, 209, 147);
+        border-radius: 1em;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: transform 1s;
+        transform: translateY(0%);
+
+
+        .modalImg {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            img {
+                width: 80%;
+                height: 80%;
+                padding: 2em;
+                border-radius: 3em;
+
+            }
+        }
+
+        .modalText {
+            width: 60%;
+            height: 90%;
+            text-align: justify;
+            padding: 2em;
+
+
+            h5 {
+                font-size: 4em;
+                text-align: center;
+                border-bottom: solid 1px black;
+                width: fit-content;
+            }
+
+            p {
+                font-size: 2em;
+                padding-top: 1em;
+            }
+
+
+        }
+
+        .closeCarola {
+            position: absolute;
+            top: 0.5em;
+            right: .5em;
+            font-size: 2em;
+            background-color: black;
+            color: white;
+            border-radius: 50%;
+            padding: .2em;
+            cursor: pointer;
+        }
+    }
+
+    .modalCloseCarola{
+        transform: translateY(-200%);
+    }
+    
+}
+
+// modal martin 
+
+.modalContainerBgMartin{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    .modalContainer {
+
+        width: 60vw;
+        height: 70vh;
+        background-color: rgb(147, 209, 147);
+        border-radius: 1em;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: transform 1s;
+        transform: translateY(0%);
+
+
+        .modalImg {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            img {
+                width: 80%;
+                height: 80%;
+                padding: 2em;
+                border-radius: 3em;
+
+            }
+        }
+
+        .modalText {
+            width: 60%;
+            height: 90%;
+            text-align: justify;
+            padding: 2em;
+
+
+            h5 {
+                font-size: 4em;
+                text-align: center;
+                border-bottom: solid 1px black;
+                width: fit-content;
+            }
+
+            p {
+                font-size: 2em;
+                padding-top: 1em;
+            }
+
+
+        }
+
+        .closeMartin {
+            position: absolute;
+            top: 0.5em;
+            right: .5em;
+            font-size: 2em;
+            background-color: black;
+            color: white;
+            border-radius: 50%;
+            padding: .2em;
+            cursor: pointer;
+        }
+    }
+
+    .modalCloseMartin{
+        transform: translateY(-200%);
+    }
+    
+}
+
